@@ -1,6 +1,6 @@
 import crypto from 'crypto'
 
-const SECRET = 'adx4KDcftEJm1PlUHNaHHZn6NlmaWitN8DD9NV1vLoo='
+const SECRET = ''
 
 export const random = () => crypto.randomBytes(128).toString('base64')
 export const authentication = (salt: string, password: string) => {

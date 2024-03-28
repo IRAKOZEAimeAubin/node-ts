@@ -1,5 +1,8 @@
 # Node Module
 node_modules
 
+# Environment Variables
+.env
+
 # Lock Files
 *.lock
